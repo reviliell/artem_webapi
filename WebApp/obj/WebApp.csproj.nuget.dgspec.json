@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\WebApp\\WebApp.csproj": {}
+    "d:\\Development\\artem_webapi\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Application\\Application.csproj": {
+    "d:\\Development\\artem_webapi\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Application\\Application.csproj",
+        "projectUniqueName": "d:\\Development\\artem_webapi\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\mj5qeu4r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Application\\obj\\",
+        "projectPath": "d:\\Development\\artem_webapi\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
+        "outputPath": "d:\\Development\\artem_webapi\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mj5qeu4r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,18 +27,17 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://nexus.action-media.ru/repository/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Data\\Data.csproj"
+              "D:\\Development\\artem_webapi\\Data\\Data.csproj": {
+                "projectPath": "D:\\Development\\artem_webapi\\Data\\Data.csproj"
               },
-              "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\Domain.csproj"
+              "d:\\Development\\artem_webapi\\Domain\\Domain.csproj": {
+                "projectPath": "d:\\Development\\artem_webapi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -48,7 +46,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -69,25 +73,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\DataSeeder\\DataSeeder.csproj": {
+    "d:\\Development\\artem_webapi\\DataSeeder\\DataSeeder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\DataSeeder\\DataSeeder.csproj",
+        "projectUniqueName": "d:\\Development\\artem_webapi\\DataSeeder\\DataSeeder.csproj",
         "projectName": "DataSeeder",
-        "projectPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\DataSeeder\\DataSeeder.csproj",
-        "packagesPath": "C:\\Users\\mj5qeu4r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\DataSeeder\\obj\\",
+        "projectPath": "d:\\Development\\artem_webapi\\DataSeeder\\DataSeeder.csproj",
+        "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
+        "outputPath": "d:\\Development\\artem_webapi\\DataSeeder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mj5qeu4r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,15 +100,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://nexus.action-media.ru/repository/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Data\\Data.csproj"
+              "D:\\Development\\artem_webapi\\Data\\Data.csproj": {
+                "projectPath": "D:\\Development\\artem_webapi\\Data\\Data.csproj"
               }
             }
           }
@@ -114,7 +116,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -141,25 +149,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Data\\Data.csproj": {
+    "D:\\Development\\artem_webapi\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Data\\Data.csproj",
+        "projectUniqueName": "D:\\Development\\artem_webapi\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\mj5qeu4r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Data\\obj\\",
+        "projectPath": "D:\\Development\\artem_webapi\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\artem_webapi\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mj5qeu4r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -169,15 +176,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://nexus.action-media.ru/repository/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\Domain.csproj"
+              "d:\\Development\\artem_webapi\\Domain\\Domain.csproj": {
+                "projectPath": "d:\\Development\\artem_webapi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -186,7 +192,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -227,25 +239,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\Domain.csproj": {
+    "d:\\Development\\artem_webapi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\Domain.csproj",
+        "projectUniqueName": "d:\\Development\\artem_webapi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\mj5qeu4r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\obj\\",
+        "projectPath": "d:\\Development\\artem_webapi\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
+        "outputPath": "d:\\Development\\artem_webapi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mj5qeu4r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -255,7 +266,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://nexus.action-media.ru/repository/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -268,7 +278,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -289,25 +305,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\WebApp\\WebApp.csproj": {
+    "d:\\Development\\artem_webapi\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "d:\\Development\\artem_webapi\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\WebApp\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\mj5qeu4r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\WebApp\\obj\\",
+        "projectPath": "d:\\Development\\artem_webapi\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
+        "outputPath": "d:\\Development\\artem_webapi\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mj5qeu4r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -317,24 +332,23 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://nexus.action-media.ru/repository/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Application\\Application.csproj"
+              "d:\\Development\\artem_webapi\\Application\\Application.csproj": {
+                "projectPath": "d:\\Development\\artem_webapi\\Application\\Application.csproj"
               },
-              "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\DataSeeder\\DataSeeder.csproj": {
-                "projectPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\DataSeeder\\DataSeeder.csproj"
+              "d:\\Development\\artem_webapi\\DataSeeder\\DataSeeder.csproj": {
+                "projectPath": "d:\\Development\\artem_webapi\\DataSeeder\\DataSeeder.csproj"
               },
-              "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Data\\Data.csproj"
+              "D:\\Development\\artem_webapi\\Data\\Data.csproj": {
+                "projectPath": "D:\\Development\\artem_webapi\\Data\\Data.csproj"
               },
-              "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\Domain.csproj"
+              "d:\\Development\\artem_webapi\\Domain\\Domain.csproj": {
+                "projectPath": "d:\\Development\\artem_webapi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -343,7 +357,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -377,7 +397,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
