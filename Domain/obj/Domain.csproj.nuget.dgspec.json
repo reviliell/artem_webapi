@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Development\\artem_webapi\\Domain\\Domain.csproj": {}
+    "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "d:\\Development\\artem_webapi\\Domain\\Domain.csproj": {
+    "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Development\\artem_webapi\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "d:\\Development\\artem_webapi\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-        "outputPath": "d:\\Development\\artem_webapi\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\mj5qeu4r\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mj5qeu4r\\RiderProjects\\WebApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mj5qeu4r\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,6 +28,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://nexus.action-media.ru/repository/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,13 +41,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -66,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

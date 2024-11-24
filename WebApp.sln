@@ -1,6 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{3C634719-9913-4CD1-8B46-DD6B82A02EFE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{A865C2A4-00BF-4CF1-BAB1-A68BD938F767}"
@@ -10,8 +9,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B667A36B-994D-4AFD-94E8-0C53B3E101C0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSeeder", "DataSeeder\DataSeeder.csproj", "{A40C162D-4B8A-4A97-841F-B4EE93CD72EB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "..\Experiment_with_AI\WebApplication1\WebApplication1.csproj", "{6D8B02F3-9E61-4E86-AD8F-4A673FE16689}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +36,5 @@ Global
 		{A40C162D-4B8A-4A97-841F-B4EE93CD72EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A40C162D-4B8A-4A97-841F-B4EE93CD72EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A40C162D-4B8A-4A97-841F-B4EE93CD72EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6D8B02F3-9E61-4E86-AD8F-4A673FE16689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D8B02F3-9E61-4E86-AD8F-4A673FE16689}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D8B02F3-9E61-4E86-AD8F-4A673FE16689}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D8B02F3-9E61-4E86-AD8F-4A673FE16689}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

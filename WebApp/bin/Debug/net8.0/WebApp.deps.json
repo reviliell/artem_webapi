@@ -181,10 +181,7 @@
           "Domain": "1.0.0"
         },
         "runtime": {
-          "Application.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Application.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -195,10 +192,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "8.0.8"
         },
         "runtime": {
-          "Data.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Data.dll": {}
         }
       },
       "DataSeeder/1.0.0": {
@@ -207,18 +201,12 @@
           "Data": "1.0.0"
         },
         "runtime": {
-          "DataSeeder.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "DataSeeder.dll": {}
         }
       },
       "Domain/1.0.0": {
         "runtime": {
-          "Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Domain.dll": {}
         }
       }
     }

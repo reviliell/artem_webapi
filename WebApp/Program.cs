@@ -2,7 +2,7 @@ using Application;
 using Data;
 
 var builder = WebApplication.CreateBuilder(args);
-// http://localhost:5189/swagger/index.html 
+
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
