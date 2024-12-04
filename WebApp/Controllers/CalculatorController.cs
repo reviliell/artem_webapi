@@ -32,18 +32,81 @@ public class CalculatorController() : Controller
          }
         return Ok(result);
     }
+    
+    [HttpGet]
+    [Route("api/v1/multiplication_get-result")]
+    public ActionResult<int> GetMultiplicationResult(int number_a, int number_b)
+    {
+        int result = number_a * number_b;
+        return Ok(result);
+    }
 
-    // Метод с нащванием GetExponentiationResult принимает на вход два числа и отдает данные типа ActionResult<int>.
-    // К методу можно обратится по api/v1/GetExponentiationResult
     [HttpGet]
     [Route("api/v1/exponentiation_get-result")]
-    public ActionResult<int> GetExponentiationResult(int number_a,int number_b)
+    public ActionResult<double> GetExponentiationResult(int number_a, int number_b)
     {
-         int result = number_a / number_b;
-         if (number_b==0)
-         {
+        double result = Math.Pow(number_a, number_b);
+        return Ok(result);
+    }
+
+    [HttpGet]
+    [Route("api/v1/division_two_numbers_remainder_get-results")]
+    public ActionResult<int> GetDivisionTwoNumbersRemainder(int number_a, int number_b)
+    {
+        if (number_b == 0)
+        {
             return BadRequest("Error");
-         }
+        }
+        int result = number_a % number_b;
+        return Ok(result);
+    }
+
+    [HttpGet]
+    [Route("api/v1/factorial_get-result")]
+    public ActionResult<int> GetFactorialResult(int number)
+    {
+        if (number < 0) return BadRequest("Error");
+        int result = 1;
+        for (int i = 1; i <= number; i++)
+        {
+            result *= i;
+        }
+        return Ok(result);
+    }
+
+    [HttpGet]
+    [Route("api/v1/remainder_sorted_get-result")]
+    public ActionResult<int> GetRemainderSorted(int B, int N)
+    {
+        int result = 0;
+        for (int i = 0; i <= N; i++)
+        {
+            result += B % i;
+        }
+        return Ok(result);
+    }
+
+    [HttpGet]
+    [Route("api/v1/addition_sorted_get-result")]
+    public ActionResult<int> GetAdditionSorted(int N, int M, int P)
+    {
+        int result = N;
+        for (int i = 0; i < P; i++)
+        {
+            result += M;
+        }
+        return Ok(result);
+    }
+
+    [HttpGet]
+    [Route("api/v1/subtraction_sorted_get-result")]
+    public ActionResult<int> GetSubtractionSorted(int N, int M, int P)
+    {
+        int result = N;
+        for (int i = 0; i < P; i++)
+        {
+            result -= M;
+        }
         return Ok(result);
     }
 
