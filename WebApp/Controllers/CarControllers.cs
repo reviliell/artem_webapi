@@ -13,9 +13,33 @@ public class CarController() : Controller
     // К методу можно обратится по api/v1/sale_get-result
     [HttpGet]
     [Route("api/v1/sale_get-result")]
-    public ActionResult<int> GetSaleResult(int price,int  discont)
+    public ActionResult<int> GetSaleResult(int originalPrice,int  discountPercentage)
     {
-        int result = price - discont;
-        return Ok(result);
+       //Это определит сумму скидки на основе процентного соотношения.
+        int discountAmount = (discountPercentage / 100) * originalPrice;
+
+        // Скидка будет вычтена из исходной цены, чтобы получить итоговую стоимость со скидкой.
+        double discountedPrice = originalPrice - discountAmount;
+        return Ok(discountedPrice);
+    }
+    public ActionResult<int> GetSaleBus(int originalPrice, int discountPercentage)
+    {
+
+        //Это определит сумму скидки на основе процентного соотношения.
+        int discountAmount = (discountPercentage / 100) * originalPrice;
+
+        // Скидка будет вычтена из исходной цены, чтобы получить итоговую стоимость со скидкой.
+        double discountedPrice = originalPrice - discountAmount;
+        return Ok(discountedPrice);
+    }
+    public ActionResult<int> GetSaleTruck(int originalPrice, int discountPercentage)
+    {
+
+        //Это определит сумму скидки на основе процентного соотношения.
+        int discountAmount = (discountPercentage / 100) * originalPrice;
+
+        // Скидка будет вычтена из исходной цены, чтобы получить итоговую стоимость со скидкой.
+        double discountedPrice = originalPrice - discountAmount;
+        return Ok(discountedPrice);
     }
 }
