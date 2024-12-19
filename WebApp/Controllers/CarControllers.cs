@@ -22,6 +22,8 @@ public class CarController() : Controller
         double discountedPrice = originalPrice - discountAmount;
         return Ok(discountedPrice);
     }
+    [HttpGet]
+    [Route("api/v1/get_sale_Bus")]
     public ActionResult<int> GetSaleBus(int originalPrice, int discountPercentage)
     {
 
@@ -32,6 +34,8 @@ public class CarController() : Controller
         double discountedPrice = originalPrice - discountAmount;
         return Ok(discountedPrice);
     }
+    [HttpGet]
+    [Route("api/v1/get_sale_Truck")]
     public ActionResult<int> GetSaleTruck(int originalPrice, int discountPercentage)
     {
 
@@ -42,4 +46,7 @@ public class CarController() : Controller
         double discountedPrice = originalPrice - discountAmount;
         return Ok(discountedPrice);
     }
+    //- дописать метод car_get. Объявить вторую переменную и в нее положить вторую машину со своими значениями полей. 
+    //Добавить входной параметр int, если ввели четное число - ты возвращаешь машину первой переменной, если нечетное - то машину второй переменной
+
 }
