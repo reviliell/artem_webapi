@@ -109,9 +109,18 @@ public class CalculatorController() : Controller
         }
         return Ok(result);
     }
+    [HttpGet]
+    [Route("api/v1/sale_get")]
+    public ActionResult<int> GetSale(int originalPrice, int discountPercentage)
+    {
 
+        //Это определит сумму скидки на основе процентного соотношения.
+        int discountAmount = (discountPercentage / 100) * originalPrice;
 
-
+        // Скидка будет вычтена из исходной цены, чтобы получить итоговую стоимость со скидкой.
+        double discountedPrice = originalPrice - discountAmount;
+        return Ok(discountedPrice);
+    }
 }
 
    
